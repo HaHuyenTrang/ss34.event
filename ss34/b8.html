@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Delete Rows</title>
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+</style>
+<body>
+    <table id="table">
+        <tr>
+          <th>Delete</th>
+          <th>Row 1</th>
+        </tr>
+        <tr>
+          <td><button onclick="deleteRow(1)">Delete</button></td>
+          <td>Cell 1 row 1</td>
+        </tr>
+        <tr>
+          <td><button onclick="deleteRow(2)">Delete</button></td>
+          <td>Cell 2 row 1</td>
+        </tr>
+        <tr>
+          <td><button onclick="deleteRow(3)">Delete</button></td>
+          <td>Cell 3 row 1</td>
+        </tr>
+      </table>
+</body>
+<script src="./b8.js"></script>
+</html>
